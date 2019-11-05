@@ -31,5 +31,6 @@ var kit = kittens.slice(0, kittens.length-1)
 return kit
 }
 function removeFirstKitten(){
-
+var lip = kittens.slice(1)
+return lip
 }
